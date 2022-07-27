@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Todo app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Todo
-
-  <!-- Add dynamic number --> items left
-
-  All
-  Active 
-  Completed
-
-  Clear Completed
-
-  Drag and drop to reorder list
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Ash's Todo app</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="image-header">
+        <img src="images/bg-desktop-dark.jpg" alt="header image" />
+      </div>
+    </div>
+    <div class="todo-list">
+      <div class="header">
+        <div class="heading">TODO</div>
+        <div class="icon">
+          <img src="images/icon-sun.svg" alt="sun icon" />
+        </div>
+      </div>
+      <div class="list">
+        <div class="input">
+          <div class="input-check">
+            <img src="images/icon-check.svg" alt="check" />
+          </div>
+          <input placeholder="Add something to finish" type="text" />
+        </div>
+        <div class="list-body"></div>
+        <div class="list-footer">
+          <div class="items-left"><span class="length">0</span> items left</div>
+          <div class="filters">
+            <div class="filter active">All</div>
+            <div class="filter">Active</div>
+            <div class="filter">Completed</div>
+          </div>
+          <div class="clear">Clear Completed</div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/main.js"></script>
+  </body>
 </html>
+
+<!-- 
+
+   Todo
+
+    items left All Active Completed Clear Completed Drag and drop to reorder
+    list
+
+ -->
