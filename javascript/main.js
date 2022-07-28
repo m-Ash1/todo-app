@@ -92,5 +92,24 @@ filters.forEach(function (filter) {
     });
 
     e.target.classList.add("active");
+    let allItems = document.querySelectorAll(".item");
+
+    if (e.target.innerHTML == "All") {
+      allItems.forEach(function (item) {
+        item.style.display = "flex";
+      });
+    } else if (e.target.innerHTML == "Active") {
+      allItems.forEach(function (item) {
+        item.classList.contains("checked-item")
+          ? (item.style.display = "none")
+          : (item.style.display = "flex");
+      });
+    } else {
+      allItems.forEach(function (item) {
+        item.classList.contains("checked-item")
+          ? (item.style.display = "flex")
+          : (item.style.display = "none");
+      });
+    }
   });
 });
