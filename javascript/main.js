@@ -166,7 +166,7 @@ if (localStorage.getItem("currentMode") == "darkMode") {
   document.body.style.backgroundColor = localStorage.getItem("lightMode");
   background.src = localStorage.getItem("lightBackground");
   iconSwitch.src = localStorage.getItem("lightIcon");
-  inputItem.style.color = localStorage.getItem("darkFont");
+  inputItem.style.color = localStorage.getItem("lightFont");
 
   for (item of todoList) {
     item.style.backgroundColor = localStorage.getItem("lightTodo");
