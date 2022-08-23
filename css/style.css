@@ -17,6 +17,9 @@ body {
   width: 100%;
 }
 
+.header .icon-switch {
+  cursor: pointer;
+}
 /* T O D O LIST STYLE */
 .todo-list {
   position: absolute;
@@ -91,30 +94,25 @@ input::placeholder {
 .list-footer {
   display: flex;
   padding: 25px 20px;
-  background-color: hsl(235, 24%, 19%);
-  color: hsl(234, 39%, 85%);
 }
 .list-body {
   border-radius: 7px 7px 0 0;
   overflow: hidden;
   box-shadow: 0px 23px 32px 6px rgb(0 0 0 / 20%);
 }
-.list-body .item {
-  border-bottom: 1px solid hsl(237, 14%, 26%);
-}
+
 input {
-  background-color: hsl(235, 24%, 19%);
+  background-color: transparent;
   border: none;
   width: 85%;
   outline: none;
   font-size: 18px;
-  color: hsl(234, 39%, 85%);
   font-family: "Josefin Sans", sans-serif;
 }
 .list-footer {
   justify-content: space-between;
   font-size: 16px;
-  color: hsl(234, 11%, 52%);
+  color: hsl(234, 11%, 52%) !important;
 }
 .filters {
   display: flex;
