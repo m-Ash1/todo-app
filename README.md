@@ -3,6 +3,7 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
 
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
@@ -47,4 +48,4 @@ Users should be able to:
 
 - Behance - [Mahmoud Ashraf](https://www.behance.net/m_ashraffarouk/)
 - Frontend Mentor - [@m-Ash1](https://www.frontendmentor.io/profile/m-Ash1)
-- Twitter - [@m_ashraffarouk](https://www.twitter.com/m_ashraffarouk)
+- Twitter - [@m_ashraffarouk](https://www.twitter.com/m_ashraffaroukk)
